@@ -1,0 +1,34 @@
+METHOD			URL							NOTES
+
+GET				/api/walls					Get all the walls configured
+GET				/api/walls/{id}				Get the info of a single walls
+POST			/api/walls					Create a single wall
+PUT				/api/walls/{id}				Modify a single wall
+PATCH			/api/walls/{id}				Apply a patch to a single wall
+DELETE          /api/walls/{id}             Delete a single wall
+DELETE          /api/walls                  Delete all the walls
+
+GET				/api/holds					Get all the holds
+GET				/api/holds/{id}				Get the info of a single hold
+POST			/api/holds					Create a single hold
+PUT				/api/holds/{id}				Modify a single hold
+PATCH			/api/holds/{id}				Apply a patch to a single hold
+DELETE          /api/holds/{id}             Delete a single hold
+DELETE          /api/holds                  Delete all the holds
+
+GET				/api/users					Get the collections of users
+GET				/api/users/{id}				Get a single user
+POST			/api/users					Create a single user
+PUT				/api/users/{id}				Modify a single user
+PATCH			/api/users/{id}				Apply a patch to a single user
+DELETE          /api/users/{id}             Delete a single user
+DELETE          /api/users                  Delete all the holds
+
+GET				/api/climbs					Get all the climbs made
+GET				/api/climbs/{id}			Get the information of a single climb
+POST			/api/climbs					Create a new climb
+PUT				/api/climbs/{id}		    Modify the climbs 
+PATCH			/api/climbs/{id}			Apply a patch to a single climb  - i.e. modify it's state(START/END)
+DELETE          /api/climbs/{id}            Delete a climb
+DELETE          /api/climbs                 Delete all the climbs
+WS				/api/climbs              	Get realtime info of the climb
